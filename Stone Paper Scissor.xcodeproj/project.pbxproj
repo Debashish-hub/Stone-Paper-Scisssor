@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3259ED4298573A300C51AFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3259ED3298573A300C51AFA /* AppDelegate.swift */; };
+		D3259ED6298573A300C51AFA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3259ED5298573A300C51AFA /* SceneDelegate.swift */; };
+		D3259ED8298573A300C51AFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3259ED7298573A300C51AFA /* ViewController.swift */; };
+		D3259EDB298573A300C51AFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3259ED9298573A300C51AFA /* Main.storyboard */; };
+		D3259EDD298573A400C51AFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3259EDC298573A400C51AFA /* Assets.xcassets */; };
+		D3259EE0298573A400C51AFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3259EDE298573A400C51AFA /* LaunchScreen.storyboard */; };
+		D3259EEB298573A400C51AFA /* Stone_Paper_ScissorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3259EEA298573A400C51AFA /* Stone_Paper_ScissorTests.swift */; };
+		D3259EF5298573A500C51AFA /* Stone_Paper_ScissorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3259EF4298573A500C51AFA /* Stone_Paper_ScissorUITests.swift */; };
+		D3259EF7298573A500C51AFA /* Stone_Paper_ScissorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3259EF6298573A500C51AFA /* Stone_Paper_ScissorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3259EE7298573A400C51AFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3259EC8298573A300C51AFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3259ECF298573A300C51AFA;
+			remoteInfo = "Stone Paper Scissor";
+		};
+		D3259EF1298573A400C51AFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3259EC8298573A300C51AFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3259ECF298573A300C51AFA;
+			remoteInfo = "Stone Paper Scissor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3259ED0298573A300C51AFA /* Stone Paper Scissor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stone Paper Scissor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3259ED3298573A300C51AFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3259ED5298573A300C51AFA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D3259ED7298573A300C51AFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3259EDA298573A300C51AFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3259EDC298573A400C51AFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3259EDF298573A400C51AFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3259EE1298573A400C51AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3259EE6298573A400C51AFA /* Stone Paper ScissorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stone Paper ScissorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3259EEA298573A400C51AFA /* Stone_Paper_ScissorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stone_Paper_ScissorTests.swift; sourceTree = "<group>"; };
+		D3259EF0298573A400C51AFA /* Stone Paper ScissorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stone Paper ScissorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3259EF4298573A500C51AFA /* Stone_Paper_ScissorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stone_Paper_ScissorUITests.swift; sourceTree = "<group>"; };
+		D3259EF6298573A500C51AFA /* Stone_Paper_ScissorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stone_Paper_ScissorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3259ECD298573A300C51AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3259EE3298573A400C51AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3259EED298573A400C51AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3259EC7298573A300C51AFA = {
+			isa = PBXGroup;
+			children = (
+				D3259ED2298573A300C51AFA /* Stone Paper Scissor */,
+				D3259EE9298573A400C51AFA /* Stone Paper ScissorTests */,
+				D3259EF3298573A400C51AFA /* Stone Paper ScissorUITests */,
+				D3259ED1298573A300C51AFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3259ED1298573A300C51AFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3259ED0298573A300C51AFA /* Stone Paper Scissor.app */,
+				D3259EE6298573A400C51AFA /* Stone Paper ScissorTests.xctest */,
+				D3259EF0298573A400C51AFA /* Stone Paper ScissorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3259ED2298573A300C51AFA /* Stone Paper Scissor */ = {
+			isa = PBXGroup;
+			children = (
+				D3259ED3298573A300C51AFA /* AppDelegate.swift */,
+				D3259ED5298573A300C51AFA /* SceneDelegate.swift */,
+				D3259ED7298573A300C51AFA /* ViewController.swift */,
+				D3259ED9298573A300C51AFA /* Main.storyboard */,
+				D3259EDC298573A400C51AFA /* Assets.xcassets */,
+				D3259EDE298573A400C51AFA /* LaunchScreen.storyboard */,
+				D3259EE1298573A400C51AFA /* Info.plist */,
+			);
+			path = "Stone Paper Scissor";
+			sourceTree = "<group>";
+		};
+		D3259EE9298573A400C51AFA /* Stone Paper ScissorTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3259EEA298573A400C51AFA /* Stone_Paper_ScissorTests.swift */,
+			);
+			path = "Stone Paper ScissorTests";
+			sourceTree = "<group>";
+		};
+		D3259EF3298573A400C51AFA /* Stone Paper ScissorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3259EF4298573A500C51AFA /* Stone_Paper_ScissorUITests.swift */,
+				D3259EF6298573A500C51AFA /* Stone_Paper_ScissorUITestsLaunchTests.swift */,
+			);
+			path = "Stone Paper ScissorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3259ECF298573A300C51AFA /* Stone Paper Scissor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3259EFA298573A500C51AFA /* Build configuration list for PBXNativeTarget "Stone Paper Scissor" */;
+			buildPhases = (
+				D3259ECC298573A300C51AFA /* Sources */,
+				D3259ECD298573A300C51AFA /* Frameworks */,
+				D3259ECE298573A300C51AFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stone Paper Scissor";
+			productName = "Stone Paper Scissor";
+			productReference = D3259ED0298573A300C51AFA /* Stone Paper Scissor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3259EE5298573A400C51AFA /* Stone Paper ScissorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3259EFD298573A500C51AFA /* Build configuration list for PBXNativeTarget "Stone Paper ScissorTests" */;
+			buildPhases = (
+				D3259EE2298573A400C51AFA /* Sources */,
+				D3259EE3298573A400C51AFA /* Frameworks */,
+				D3259EE4298573A400C51AFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3259EE8298573A400C51AFA /* PBXTargetDependency */,
+			);
+			name = "Stone Paper ScissorTests";
+			productName = "Stone Paper ScissorTests";
+			productReference = D3259EE6298573A400C51AFA /* Stone Paper ScissorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3259EEF298573A400C51AFA /* Stone Paper ScissorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3259F00298573A500C51AFA /* Build configuration list for PBXNativeTarget "Stone Paper ScissorUITests" */;
+			buildPhases = (
+				D3259EEC298573A400C51AFA /* Sources */,
+				D3259EED298573A400C51AFA /* Frameworks */,
+				D3259EEE298573A400C51AFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3259EF2298573A400C51AFA /* PBXTargetDependency */,
+			);
+			name = "Stone Paper ScissorUITests";
+			productName = "Stone Paper ScissorUITests";
+			productReference = D3259EF0298573A400C51AFA /* Stone Paper ScissorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3259EC8298573A300C51AFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D3259ECF298573A300C51AFA = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D3259EE5298573A400C51AFA = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D3259ECF298573A300C51AFA;
+					};
+					D3259EEF298573A400C51AFA = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D3259ECF298573A300C51AFA;
+					};
+				};
+			};
+			buildConfigurationList = D3259ECB298573A300C51AFA /* Build configuration list for PBXProject "Stone Paper Scissor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3259EC7298573A300C51AFA;
+			productRefGroup = D3259ED1298573A300C51AFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3259ECF298573A300C51AFA /* Stone Paper Scissor */,
+				D3259EE5298573A400C51AFA /* Stone Paper ScissorTests */,
+				D3259EEF298573A400C51AFA /* Stone Paper ScissorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3259ECE298573A300C51AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3259EE0298573A400C51AFA /* LaunchScreen.storyboard in Resources */,
+				D3259EDD298573A400C51AFA /* Assets.xcassets in Resources */,
+				D3259EDB298573A300C51AFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3259EE4298573A400C51AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3259EEE298573A400C51AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3259ECC298573A300C51AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3259ED8298573A300C51AFA /* ViewController.swift in Sources */,
+				D3259ED4298573A300C51AFA /* AppDelegate.swift in Sources */,
+				D3259ED6298573A300C51AFA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3259EE2298573A400C51AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3259EEB298573A400C51AFA /* Stone_Paper_ScissorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3259EEC298573A400C51AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3259EF7298573A500C51AFA /* Stone_Paper_ScissorUITestsLaunchTests.swift in Sources */,
+				D3259EF5298573A500C51AFA /* Stone_Paper_ScissorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3259EE8298573A400C51AFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3259ECF298573A300C51AFA /* Stone Paper Scissor */;
+			targetProxy = D3259EE7298573A400C51AFA /* PBXContainerItemProxy */;
+		};
+		D3259EF2298573A400C51AFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3259ECF298573A300C51AFA /* Stone Paper Scissor */;
+			targetProxy = D3259EF1298573A400C51AFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3259ED9298573A300C51AFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3259EDA298573A300C51AFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3259EDE298573A400C51AFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3259EDF298573A400C51AFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3259EF8298573A500C51AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3259EF9298573A500C51AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3259EFB298573A500C51AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = THMR67H53F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Stone Paper Scissor/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Debashish.Stone-Paper-Scissor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3259EFC298573A500C51AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = THMR67H53F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Stone Paper Scissor/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Debashish.Stone-Paper-Scissor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D3259EFE298573A500C51AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = THMR67H53F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Debashish.Stone-Paper-ScissorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stone Paper Scissor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Stone Paper Scissor";
+			};
+			name = Debug;
+		};
+		D3259EFF298573A500C51AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = THMR67H53F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Debashish.Stone-Paper-ScissorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stone Paper Scissor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Stone Paper Scissor";
+			};
+			name = Release;
+		};
+		D3259F01298573A500C51AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = THMR67H53F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Debashish.Stone-Paper-ScissorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Stone Paper Scissor";
+			};
+			name = Debug;
+		};
+		D3259F02298573A500C51AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = THMR67H53F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Debashish.Stone-Paper-ScissorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Stone Paper Scissor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3259ECB298573A300C51AFA /* Build configuration list for PBXProject "Stone Paper Scissor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3259EF8298573A500C51AFA /* Debug */,
+				D3259EF9298573A500C51AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3259EFA298573A500C51AFA /* Build configuration list for PBXNativeTarget "Stone Paper Scissor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3259EFB298573A500C51AFA /* Debug */,
+				D3259EFC298573A500C51AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3259EFD298573A500C51AFA /* Build configuration list for PBXNativeTarget "Stone Paper ScissorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3259EFE298573A500C51AFA /* Debug */,
+				D3259EFF298573A500C51AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3259F00298573A500C51AFA /* Build configuration list for PBXNativeTarget "Stone Paper ScissorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3259F01298573A500C51AFA /* Debug */,
+				D3259F02298573A500C51AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3259EC8298573A300C51AFA /* Project object */;
+}
